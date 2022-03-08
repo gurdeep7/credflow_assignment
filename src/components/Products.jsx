@@ -59,8 +59,8 @@ return(<>
     <div>
         {
             show.map((e)=>{
-                return <div key={e.id}>
-                    <img style={{height:"300px"}} src={e.image}></img>
+                return <div style={{height:"550px"}} key={e.id}>
+                    <img style={{height:"300px",width:"33%"}} src={e.image}></img>
                     <h4>Winery:{e.winery}</h4>
                     <p>Wine:{e.wine}</p>
                     <p>

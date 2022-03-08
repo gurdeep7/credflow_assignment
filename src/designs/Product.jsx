@@ -6,7 +6,7 @@ export const FilterDiv = styled.div`
 display: inline-block ;
     background-color: gray;
     width: 25% ;
-    height:1600px;
+    height:1673px;
 
     & > button{
         width:200px ;
